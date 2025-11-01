@@ -8,9 +8,9 @@ const Hero = () => {
   };
 
   const images = [
-    "/src/assets/img/nagar-sevak.png",
-    "/src/assets/img/ns-preview.png",
-    "/src/assets/img/IMG_7708-removebg-preview.png",
+    "/assets/img/nagar-sevak.png",
+    "/assets/img/ns-preview.png",
+    "/assets/img/IMG_7708-removebg-preview.png",
   ];
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -58,7 +58,7 @@ const Hero = () => {
     >
       {/* Background Music */}
       <audio ref={audioRef} loop preload="auto">
-        <source src="/src/assets/music/ala-nagar-sevak.mp3" type="audio/mpeg" />
+        <source src="/assets/music/ala-nagar-sevak.mp3" type="audio/mpeg" />
       </audio>
 
       <div
@@ -92,7 +92,7 @@ const Hero = () => {
           <div className="text-7xl sm:text-9xl mb-3 animate-bounce">
             <img
               className="block mx-auto"
-              src="/src/assets/img/Bharatiya_Janata_Party_logo.svg.png"
+              src="/assets/img/Bharatiya_Janata_Party_logo.svg.png"
               width="100px"
             />
           </div>

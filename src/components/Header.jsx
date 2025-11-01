@@ -20,7 +20,7 @@ const Header = () => {
           <div className="flex items-center space-x-2 sm:space-x-3">
             <div className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 flex-shrink-0">
               <img
-                src="/src/assets/img/Bharatiya_Janata_Party_logo.svg.png"
+                src="/assets/img/Bharatiya_Janata_Party_logo.svg.png"
                 alt="BJP Logo"
                 className="w-full h-full object-contain"
               />

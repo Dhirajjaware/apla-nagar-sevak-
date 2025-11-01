@@ -14,7 +14,7 @@ const Footer = () => {
           <div className="flex items-center gap-3">
             <div className="text-4xl">
               <img
-                src="/src/assets/img/Bharatiya_Janata_Party_logo.svg.png"
+                src="/assets/img/Bharatiya_Janata_Party_logo.svg.png"
                 width="100px"
               />
             </div>
