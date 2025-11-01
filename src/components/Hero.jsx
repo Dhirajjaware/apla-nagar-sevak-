@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 
 const Hero = () => {
   const candidateInfo = {
-    name: "मयूर शुबास ढोले",
+    name: "मयूर सुबास भोई",
     ward: "प्रभाग क्र. 5",
     area: "भोई गल्ली, तळोदा",
   };
@@ -88,29 +88,19 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* Indicator dots */}
-        <div className="flex justify-center gap-2 mb-4">
-          {images.map((_, index) => (
-            <button
-              key={index}
-              onClick={() => setCurrentImageIndex(index)}
-              className={`w-3 h-3 rounded-full transition-all ${
-                index === currentImageIndex
-                  ? "bg-white w-8"
-                  : "bg-white/50 hover:bg-white/75"
-              }`}
-              aria-label={`View image ${index + 1}`}
-            />
-          ))}
-        </div>
-
         <div className="mb-4">
-          <div className="text-7xl sm:text-9xl mb-3 animate-bounce">🪷</div>
+          <div className="text-7xl sm:text-9xl mb-3 animate-bounce">
+            <img
+              className="block mx-auto"
+              src="/src/assets/img/Bharatiya_Janata_Party_logo.svg.png"
+              width="100px"
+            />
+          </div>
         </div>
-        <h1 className="text-3xl sm:text-5xl md:text-6xl font-black text-white mb-3 drop-shadow-2xl">
+        <h1 className="text-3xl sm:text-5xl md:text-6xl font-black text-white mb-6 drop-shadow-2xl">
           {candidateInfo.name}
         </h1>
-        <p className="text-xl sm:text-3xl text-white font-bold mb-2 drop-shadow-lg">
+        <p className="text-xl sm:text-3xl text-white font-bold mb-3 drop-shadow-lg">
           भारतीय जनता पक्ष उमेदवार
         </p>
         <p className="text-lg sm:text-2xl text-white mb-6 font-semibold drop-shadow-lg">
@@ -119,18 +109,18 @@ const Hero = () => {
         <div className="text-2xl sm:text-4xl font-bold text-white mb-8 drop-shadow-xl">
           "आपल्या मताने विकासाच्या वाटेवर!"
         </div>
-        <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center px-4">
+        <div className="flex mb-5 flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center px-4">
           <button
             onClick={() => scrollToSection("contact")}
             className="w-full sm:w-auto bg-white text-orange-600 font-bold px-8 sm:px-10 py-3 sm:py-4 rounded-full shadow-2xl hover:scale-105 transition-all text-base sm:text-lg"
           >
-            मला पाठिंबा द्या
+            पाठिंबा द्या
           </button>
           <button
             onClick={() => scrollToSection("promises")}
             className="w-full sm:w-auto bg-green-600 text-white font-bold px-8 sm:px-10 py-3 sm:py-4 rounded-full shadow-2xl hover:scale-105 transition-all text-base sm:text-lg"
           >
-            माझी आश्वासने
+            आपला सेवक
           </button>
         </div>
       </div>

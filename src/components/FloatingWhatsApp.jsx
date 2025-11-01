@@ -2,7 +2,7 @@ import React from "react";
 import { WhatsApp } from "./icons";
 
 const FloatingWhatsApp = () => {
-  const whatsapp = "919876543210";
+  const whatsapp = "918208547326";
 
   return (
     <a

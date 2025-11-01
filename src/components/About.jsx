@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   const candidateInfo = {
-    name: "मयूर शुबास ढोले",
+    name: "मयूर सुबास भोई",
     area: "भोई गल्ली, तळोदा",
     ward: "प्रभाग क्र. 5",
   };
@@ -31,7 +31,7 @@ const About = () => {
                     key={i}
                     className="bg-orange-50 px-3 sm:px-4 py-2 sm:py-3 rounded-xl border-l-4 border-orange-500 font-bold text-orange-700 text-sm sm:text-base text-center"
                   >
-                    Check {trait}
+                    {trait}
                   </div>
                 )
               )}

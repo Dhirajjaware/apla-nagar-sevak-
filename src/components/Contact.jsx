@@ -16,13 +16,13 @@ const Contact = () => {
   });
 
   const candidateInfo = {
-    phone: "+91 98765 43210",
-    email: "rajesh.patil@bjp.org",
+    phone: "+91 8208547326",
+    email: "mayur.dhole@bjp.org",
     area: "भोई गल्ली, तळोदा",
     ward: "प्रभाग क्र. 5",
-    facebook: "https://facebook.com",
-    instagram: "https://instagram.com",
-    whatsapp: "919876543210",
+    facebook: "https://www.facebook.com/mayur.dhole.58",
+    instagram: "https://www.instagram.com/mayursubhashdhole____sanatani/",
+    whatsapp: "918208547326",
   };
 
   const handleSubmit = (e) => {
@@ -158,7 +158,9 @@ const Contact = () => {
             </div>
 
             <button className="w-full bg-green-600 text-white font-bold py-4 px-6 rounded-2xl hover:bg-green-700 transition-all shadow-lg hover:shadow-xl text-lg">
-              Ballot Box मला पाठिंबा द्या - विकासासाठी मतदान करा Ballot Box
+              <span className="text-2xl animate-bounce">🗳️</span> मला पाठिंबा
+              द्या - विकासासाठी मतदान करा{" "}
+              <span className="text-2xl animate-bounce">🗳️</span>
             </button>
           </div>
         </div>

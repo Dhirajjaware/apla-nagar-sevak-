@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   const candidateInfo = {
-    name: "मयूर शुबास ढोले",
+    name: "मयूर सुबास भोई",
     ward: "प्रभाग क्र. 5",
     electionDate: "2025-12-15",
   };
@@ -12,7 +12,12 @@ const Footer = () => {
       <div className="container mx-auto px-4 text-center">
         <div className="flex flex-col sm:flex-row justify-between items-center gap-4 mb-6">
           <div className="flex items-center gap-3">
-            <div className="text-4xl">Lotus</div>
+            <div className="text-4xl">
+              <img
+                src="/src/assets/img/Bharatiya_Janata_Party_logo.svg.png"
+                width="100px"
+              />
+            </div>
             <div>
               <div className="font-bold text-xl">{candidateInfo.name}</div>
               <div className="text-sm opacity-90">{candidateInfo.ward}</div>
@@ -25,7 +30,7 @@ const Footer = () => {
 
         <div className="border-t border-white/20 pt-6">
           <p className="text-sm opacity-80">
-            © 2024 {candidateInfo.name}. सर्व हक्क राखीव. |
+            © 2025 {candidateInfo.name}. |
             <span className="mx-2">भारतीय जनता पक्ष उमेदवार</span> |
             <span className="mx-2">
               निवडणूक:{" "}

@@ -30,9 +30,7 @@ const Promises = () => {
               className="bg-white rounded-xl sm:rounded-2xl shadow-xl p-5 sm:p-6 border-l-4 border-orange-500 hover:shadow-2xl hover:scale-105 transition-all duration-300"
             >
               <div className="flex items-start gap-3">
-                <div className="text-2xl sm:text-3xl text-orange-500">
-                  Check
-                </div>
+                <div className="text-2xl sm:text-3xl text-orange-500">✓</div>
                 <p className="text-gray-700 font-semibold text-sm sm:text-base flex-1">
                   {promise}
                 </p>
@@ -46,7 +44,7 @@ const Promises = () => {
             onClick={() => scrollToSection("contact")}
             className="bg-gradient-to-r from-orange-500 to-orange-600 text-white font-bold px-8 sm:px-12 py-3 sm:py-4 rounded-full shadow-xl hover:shadow-2xl hover:scale-105 transition-all text-base sm:text-lg"
           >
-            Ballot Box या आश्वासनांसाठी मला मतदान करा Ballot Box
+            🗳️ या आश्वासनांसाठी मला मतदान करा 🗳️
           </button>
         </div>
       </div>

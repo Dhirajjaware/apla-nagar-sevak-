@@ -5,7 +5,7 @@ const MapSection = () => {
     ward: "प्रभाग क्र. 5",
     area: "भोई गल्ली, तळोदा",
     mapEmbedUrl:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.121089594!2d74.74764!3d19.20693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTnCsDEyJzI0LjkiTiA3NMKwNDQnNTEuNSJF!5e0!3m2!1sen!2sin!4v1234567890",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d524.5245379960188!2d74.21269975054705!3d21.56126672003987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdf9e03868a1d3f%3A0x39edae4f070dd472!2sBhoi%20Galli%2C%20Taloda%2C%20Maharashtra%20425413!5e1!3m2!1sen!2sin!4v1761996220036!5m2!1sen!2sin",
   };
 
   return (

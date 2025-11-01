@@ -2,14 +2,14 @@ import React from "react";
 
 const Gallery = () => {
   const galleryItems = [
-    { emoji: "Microphone", label: "सार्वजनिक सभा" },
-    { emoji: "Handshake", label: "लोकभेटी" },
-    { emoji: "Party", label: "कार्यक्रम" },
-    { emoji: "Camera", label: "सेवाकार्य" },
-    { emoji: "Trophy", label: "पुरस्कार" },
-    { emoji: "Group", label: "सहकारी" },
-    { emoji: "Flag", label: "रॅली" },
-    { emoji: "Newspaper", label: "वृत्तपत्र" },
+    { emoji: "🎤", label: "सार्वजनिक सभा" },
+    { emoji: "🤝", label: "लोकभेटी" },
+    { emoji: "🎉", label: "कार्यक्रम" },
+    { emoji: "📸", label: "सेवाकार्य" },
+    { emoji: "🏆", label: "पुरस्कार" },
+    { emoji: "👥", label: "सहकारी" },
+    { emoji: "🚩", label: "रॅली" },
+    { emoji: "📰", label: "वृत्तपत्र" },
   ];
 
   return (
@@ -19,7 +19,7 @@ const Gallery = () => {
     >
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl sm:text-5xl font-black text-center text-orange-600 mb-8 sm:mb-12">
-          छायाचित्र गॅलरी
+          गॅलरी
         </h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           {galleryItems.map((item, i) => (

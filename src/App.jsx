@@ -19,13 +19,13 @@ function App() {
       <TopBanner />
       <Header />
       <Hero />
-      <Countdown />
+      {/* <Countdown /> */}
       <About />
-      <Gallery />
-      <News />
-      <MapSection />
-      <Achievements />
       <Promises />
+      {/* <Gallery /> */}
+      {/* <News /> */}
+      <MapSection />
+      {/* <Achievements /> */}
       <Contact />
       <Footer />
       <FloatingWhatsApp />
