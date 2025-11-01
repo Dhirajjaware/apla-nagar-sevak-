@@ -26,7 +26,7 @@ const Header = () => {
               />
             </div>
             <div>
-              <div className="font-bold text-sm sm:text-xl">
+              <div className="font-bold text-2xl  sm:text-xl">
                 {candidateInfo.name}
               </div>
               <div className="text-xs opacity-90">{candidateInfo.ward}</div>

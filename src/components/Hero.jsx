@@ -7,11 +7,7 @@ const Hero = () => {
     area: "भोई गल्ली, तळोदा",
   };
 
-  const images = [
-    "/assets/img/nagar-sevak.png",
-    "/assets/img/ns-preview.png",
-    "/assets/img/IMG_7708-removebg-preview.png",
-  ];
+  const images = ["/assets/img/img-2.png"];
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const audioRef = useRef(null);
@@ -77,7 +73,7 @@ const Hero = () => {
                 key={index}
                 src={image}
                 alt={`${candidateInfo.name} - ${index + 1}`}
-                className={`absolute top-0 left-0 w-full h-full object-contain drop-shadow-2xl transition-opacity duration-1000 ${
+                className={`absolute top-4 left-0 w-full h-full object-contain drop-shadow-2xl transition-opacity duration-1000 ${
                   index === currentImageIndex ? "opacity-100" : "opacity-0"
                 }`}
                 style={{
