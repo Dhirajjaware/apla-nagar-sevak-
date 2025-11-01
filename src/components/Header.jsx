@@ -4,7 +4,7 @@ import { Menu, X } from "./icons";
 const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const candidateInfo = {
-    name: "मयूर सुबास भोई",
+    name: "मयूर सुभाष भोई",
     ward: "प्रभाग क्र. 5",
   };
 

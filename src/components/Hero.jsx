@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 
 const Hero = () => {
   const candidateInfo = {
-    name: "मयूर सुबास भोई",
+    name: "मयूर सुभाष भोई",
     ward: "प्रभाग क्र. 5",
     area: "भोई गल्ली, तळोदा",
   };

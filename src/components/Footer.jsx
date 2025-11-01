@@ -2,9 +2,9 @@ import React from "react";
 
 const Footer = () => {
   const candidateInfo = {
-    name: "मयूर सुबास भोई",
+    name: "मयूर सुभाष भोई",
     ward: "प्रभाग क्र. 5",
-    electionDate: "2025-12-15",
+    electionDate: "2025-01-15",
   };
 
   return (
