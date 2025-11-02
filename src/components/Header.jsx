@@ -18,13 +18,6 @@ const Header = () => {
       <div className="container mx-auto px-3 sm:px-4 py-3 sm:py-4">
         <div className="flex justify-between items-center">
           <div className="flex items-center space-x-2 sm:space-x-3">
-            <div className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 flex-shrink-0">
-              <img
-                src="/assets/img/Bharatiya_Janata_Party_logo.svg.png"
-                alt="BJP Logo"
-                className="w-full h-full object-contain"
-              />
-            </div>
             <div>
               <div className="font-bold text-2xl  sm:text-xl">
                 {candidateInfo.name}

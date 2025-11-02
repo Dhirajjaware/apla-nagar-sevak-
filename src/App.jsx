@@ -19,7 +19,7 @@ function App() {
       <TopBanner />
       <Header />
       <Hero />
-      {/* <Countdown /> */}
+      <Countdown />
       <About />
       <Promises />
       {/* <Gallery /> */}

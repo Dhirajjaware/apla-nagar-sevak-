@@ -85,25 +85,29 @@ const Hero = () => {
         </div>
 
         <div className="mb-4">
-          <div className="text-7xl sm:text-9xl mb-3 animate-bounce">
+          {/* <div className="text-7xl sm:text-9xl mb-3 animate-bounce">
             <img
               className="block mx-auto"
               src="/assets/img/Bharatiya_Janata_Party_logo.svg.png"
               width="100px"
             />
-          </div>
+          </div> */}
         </div>
         <h1 className="text-3xl sm:text-5xl md:text-6xl font-black text-white mb-6 drop-shadow-2xl">
           {candidateInfo.name}
         </h1>
-        <p className="text-xl sm:text-3xl text-white font-bold mb-3 drop-shadow-lg">
+        {/* <p className="text-xl sm:text-3xl text-white font-bold mb-3 drop-shadow-lg">
           भारतीय जनता पक्ष उमेदवार
-        </p>
+        </p> */}
         <p className="text-lg sm:text-2xl text-white mb-6 font-semibold drop-shadow-lg">
           {candidateInfo.ward} | {candidateInfo.area}
         </p>
         <div className="text-2xl sm:text-4xl font-bold text-white mb-8 drop-shadow-xl">
-          "आपल्या मताने विकासाच्या वाटेवर!"
+          समाजसेवा हाच धर्म | विकास हेच लक्ष्य नगरसेवक पदाचा उमेदवार म्हणून
+          तुमच्या विश्वासाची अपेक्षा. प्रामाणिक नेतृत्व, पारदर्शक प्रशासन आणि
+          सर्वांगीण विकासासाठी प्रयत्नशील. तरुणाईला नवी दिशा, नागरिकांना
+          विश्वास, आणि तळोद्याला नवं यश देण्यासाठी कटिबद्ध. चला मिळून घडवूया
+          नवं, सुंदर आणि सक्षम तळोदा नगर!
         </div>
         <div className="flex mb-5 flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center px-4">
           <button

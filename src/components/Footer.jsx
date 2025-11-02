@@ -12,12 +12,12 @@ const Footer = () => {
       <div className="container mx-auto px-4 text-center">
         <div className="flex flex-col sm:flex-row justify-between items-center gap-4 mb-6">
           <div className="flex items-center gap-3">
-            <div className="text-4xl">
+            {/* <div className="text-4xl">
               <img
                 src="/assets/img/Bharatiya_Janata_Party_logo.svg.png"
                 width="100px"
               />
-            </div>
+            </div> */}
             <div>
               <div className="font-bold text-xl">{candidateInfo.name}</div>
               <div className="text-sm opacity-90">{candidateInfo.ward}</div>
