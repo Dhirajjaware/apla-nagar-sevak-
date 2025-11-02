@@ -102,7 +102,7 @@ const Hero = () => {
         <p className="text-lg sm:text-2xl text-white mb-6 font-semibold drop-shadow-lg">
           {candidateInfo.ward} | {candidateInfo.area}
         </p>
-        <div className="text-2xl sm:text-4xl font-bold text-white mb-8 drop-shadow-xl">
+        <div className="text-2xl leading-11 sm:text-4xl font-bold text-white mb-8 drop-shadow-xl">
           समाजसेवा हाच धर्म | विकास हेच लक्ष्य नगरसेवक पदाचा उमेदवार म्हणून
           तुमच्या विश्वासाची अपेक्षा. प्रामाणिक नेतृत्व, पारदर्शक प्रशासन आणि
           सर्वांगीण विकासासाठी प्रयत्नशील. तरुणाईला नवी दिशा, नागरिकांना

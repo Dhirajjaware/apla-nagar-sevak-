@@ -31,7 +31,10 @@ const Footer = () => {
         <div className="border-t border-white/20 pt-6">
           <p className="text-sm opacity-80">
             © 2025 {candidateInfo.name}. |
-            <span className="mx-2">भारतीय जनता पक्ष उमेदवार</span> |
+            <span className="mx-2">
+              तळोदा येथून नगरसेवक पदासाठी उमेदवारी भरणार आहे
+            </span>{" "}
+            |
             <span className="mx-2">
               निवडणूक:{" "}
               {new Date(candidateInfo.electionDate).toLocaleDateString("mr-IN")}

@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   const candidateInfo = {
-    name: "मयूर सुबास भोई",
+    name: "मयूर सुभाष भोई",
     area: "भोई गल्ली, तळोदा",
     ward: "प्रभाग क्र. 5",
   };
@@ -16,9 +16,11 @@ const About = () => {
         <div className="bg-white rounded-2xl sm:rounded-3xl shadow-2xl p-6 sm:p-10 border-t-4 sm:border-t-8 border-orange-500">
           <div className="text-gray-700">
             <p className="text-base sm:text-lg leading-relaxed mb-4">
-              मी {candidateInfo.name}, {candidateInfo.area} येथील{" "}
-              {candidateInfo.ward} मधून भारतीय जनता पक्षाचा नगरसेवक उमेदवार आहे.
-              गेल्या १५ वर्षांपासून मी समाजसेवेत सक्रिय आहे.
+              मी {candidateInfo.name}, {candidateInfo.area},{candidateInfo.ward}{" "}
+              , माझा ठाम विश्वास आहे की प्रामाणिक नेतृत्व आणि निस्वार्थ सेवेतूनच
+              खरा विकास शक्य आहे. समाजाच्या प्रत्येक घटकाला न्याय मिळावा,
+              विकासाचा लाभ सर्वांपर्यंत पोहोचावा आणि आपल्या तळोद्याचा सर्वांगीण
+              उदय व्हावा, यासाठी मी कटिबद्ध आहे.
             </p>
             <p className="text-base sm:text-lg leading-relaxed mb-6">
               माझा विश्वास आहे की प्रामाणिक नेतृत्व आणि समर्पित सेवेतूनच खरा
