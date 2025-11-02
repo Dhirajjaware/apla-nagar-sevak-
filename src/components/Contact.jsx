@@ -20,7 +20,7 @@ const Contact = () => {
     email: "mayur.dhole@bjp.org",
     area: "भोई गल्ली, तळोदा",
     ward: "प्रभाग क्र. 5",
-    facebook: "https://www.facebook.com/mayur.dhole.58",
+    facebook: "https://www.facebook.com/profile.php?id=61582840634969",
     instagram: "https://www.instagram.com/mayursubhashdhole____sanatani/",
     whatsapp: "918208547326",
   };
