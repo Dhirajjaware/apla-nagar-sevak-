@@ -17,7 +17,7 @@ const Contact = () => {
 
   const candidateInfo = {
     phone: "+91 8208547326",
-    email: "mayur.dhole@bjp.org",
+    email: "dholem663@gmail.com",
     area: "भोई गल्ली, तळोदा",
     ward: "प्रभाग क्र. 5",
     facebook: "https://www.facebook.com/profile.php?id=61582840634969",
